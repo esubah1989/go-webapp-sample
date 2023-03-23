@@ -20,7 +20,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling and building'
-                sh 'go test test-agent/'
+                sh 'go test ./...'
             }
         }
 }
