@@ -20,7 +20,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Compiling and building'
-                sh 'go test /var/lib/jenkins/workspace'
+                sh 'go test /var/lib/jenkins/workspace/test'
             }
         }
 }
