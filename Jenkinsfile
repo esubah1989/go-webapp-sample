@@ -1,5 +1,4 @@
 pipeline {
-  pipeline {
     agent any
     tools {
         go '1.2'
@@ -26,4 +25,3 @@ pipeline {
         }
 }
  }
-}
